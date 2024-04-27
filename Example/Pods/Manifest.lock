@@ -1,5 +1,5 @@
 PODS:
-  - webview_ios4 (0.1.0)
+  - webview_ios4 (1.0)
 
 DEPENDENCIES:
   - webview_ios4 (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  webview_ios4: b2b8a5c3c7526d381cc5a7b70cd933df1eeab5ab
+  webview_ios4: ae7e7d0938e86086e12709e941595b822772247b
 
-PODFILE CHECKSUM: d1a8243a7bd36be3a0eb760023e6c5c76ca923f8
+PODFILE CHECKSUM: 5f61251b395459ebefba504b0bc1140a07e41042
 
 COCOAPODS: 1.15.2

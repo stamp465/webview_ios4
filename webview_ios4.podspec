@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'webview_ios4'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of webview_ios4.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/40135787/webview_ios4'
+  s.homepage         = 'https://github.com/stamp465/webview_ios4'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '40135787' => 'witnapat.cha@ascendcorp.com' }
-  s.source           = { :git => 'https://github.com/40135787/webview_ios4.git', :tag => s.version.to_s }
+  s.author           = { 'stamp465' => 'witnapat.cha@ascendcorp.com' }
+  s.source           = { :git => 'https://github.com/stamp465/webview_ios4.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'webview_ios4/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'webview_ios4' => ['webview_ios4/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'webview_ios4' => ['webview_ios4/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'WebKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
