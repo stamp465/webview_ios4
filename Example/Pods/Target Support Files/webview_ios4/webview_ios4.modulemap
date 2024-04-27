@@ -1,0 +1,6 @@
+framework module webview_ios4 {
+  umbrella header "webview_ios4-umbrella.h"
+
+  export *
+  module * { export * }
+}
